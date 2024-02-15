@@ -2,7 +2,7 @@ import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
 
-const ChatFeed = (props) => {
+const chatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;
 
   const chat = chats && chats[activeChat];
@@ -60,4 +60,4 @@ const ChatFeed = (props) => {
   );
 };
 
-export default ChatFeed;
+export default chatFeed;
